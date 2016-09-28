@@ -1,4 +1,4 @@
-USBIRReceiver — a physical device to receive IR NEC commands from remote
+USBIRReceiver — an Atmega8L-based USB device to receive IR NEC commands from remote
 control and configurable host software to run commands upon receiving
 configured codes.
 
