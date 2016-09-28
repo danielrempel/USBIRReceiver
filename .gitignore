@@ -1,0 +1,11 @@
+*.o
+*.bin
+*.hex
+
+# ignore the V-USB driver source
+firmware/usbdrv/*
+# except for our ubsconfig.h
+!firmware/usbdrv/usbconfig.h
+
+# ignore included inih files
+inih
