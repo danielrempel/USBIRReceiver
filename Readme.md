@@ -20,7 +20,9 @@ Building:
 * host-side: cd host-side; make
 
 NOTE: firmware's Makefile is configured to work with avrdude & USBAsp
+
 NOTE: commands in ini file must not contain quoted spaces, up to 20 args
+
 NOTE: repeat cmd from IR NEC is sent as 0xFA/0xFA by the receiver
 		according to the standard it may be sent 104ms after the initial press
 		from my experience it's not enough, so I just did code any reaction to it
